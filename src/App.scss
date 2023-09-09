@@ -1,0 +1,35 @@
+$heading1: 42px;
+$heading2: 36px;
+$heading3: 24px;
+$heading4: 20px;
+$heading5: 16px;
+$heading6: 15px;
+
+// Colors with more purple tones
+$primary: #8a5df7;          // Adjusted to a purple shade
+$primary-light: #b192f7;    // Adjusted to a lighter purple shade
+$secondary: #d584f7;        // Adjusted to another shade of purple
+$secondary-shadow: rgba(213, 132, 245, 0.2); // Adjusted with purple tones
+$white: #ffffff;
+$black: #1e1e1e;
+$error: #ff9090;
+$success: #8af58e;
+
+$font-weight-thin: 300;
+$font-weight-regular: 400;
+$font-weight-bold: 700;
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section{
+  display: flex;
+  flex-direction: row;
+  height: calc(100vh - 64px);
+  .app-children{
+    width: 50%;
+  }
+}
